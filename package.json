@@ -2,6 +2,7 @@
   "name": "app-copy-card",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://informatykgrudziadz.github.io/card-working",
   "dependencies": {
     "eslint": "^6.6.0",
     "node-sass": "^4.13.0",
@@ -16,8 +17,8 @@
     "predeploy": "yarn run build",
     "deploy": "card-working -b master -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "homepage": "https://informatykgrudziadz.github.io/card-working"
+    "build": "react-scripts build"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
